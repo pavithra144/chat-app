@@ -74,7 +74,7 @@ export default function Dashboard() {
                 </List>
               );
             })}
-          </div> 
+          </div>
           <div className={classes.chatWindow}>
             {allChats[activeTopic].map((chat, i) => {
               return (
@@ -89,7 +89,7 @@ export default function Dashboard() {
           </div>
         </div>
         <div className={classes.flex}>
-          <TextField 
+          <TextField
             label="send a message"
             className={classes.chatBox}
             value={textValue}
